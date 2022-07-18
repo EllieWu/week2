@@ -129,12 +129,25 @@ body{
                 margin: 0 auto;
                 padding-bottom: 56px;
                 border-top: 1px solid #000000;
-                li{
+                list-style: none;
+                 li{
+                    margin-top: 28px;
                     text-align: center;
-                    list-style: disc;
-                    margin-top: 27px;
-                }
-                
+                 }
+                // li{
+                //     text-align: center;
+                //     list-style: disc;
+                //     margin-top: 27px;
+                // }
+                  li::before{
+                    content: "";
+                    display: inline-block;
+                    width: 17px;
+                    height: 17px;
+                    background-color: #891818;
+                    border-radius: 50%;
+                    margin-right:16px;
+                    }
             }
         }
     }
