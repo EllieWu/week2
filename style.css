@@ -56,169 +56,172 @@ img {
   vertical-align: middle;
 }
 
-.banner img {
+body {
+  font-family: "Roboto", sans-serif;
+}
+body .banner img {
   position: relative;
 }
-.banner ul li {
+body .banner ul li {
   font-style: italic;
   position: absolute;
   top: 354px;
   left: 790px;
   color: white;
-  font-weight: bold;
 }
-.banner ul li h1 {
+body .banner ul li p {
+  font-size: 24px;
+  line-height: 42px;
+}
+body .banner ul li h1 {
   font-size: 80px;
   line-height: 106px;
   margin-bottom: 32px;
+  font-weight: bold;
 }
-.banner ul li span {
+body .banner ul li span {
   font-size: 24px;
   line-height: 36px;
 }
-.banner .banner-social {
+body .banner .banner-social {
   margin-top: 40px;
 }
-.banner .banner-social img {
+body .banner .banner-social img {
   margin-right: 16px;
 }
-.banner .banner-social img:hover {
+body .banner .banner-social img:hover {
   transform: scale(1.2);
 }
-
-.container {
+body .container {
   width: 1200px;
   margin: 0 auto;
 }
-.container .about h2 {
+body .container .about h2 {
   margin-top: 56px;
   text-align: center;
   font-size: 64px;
   line-height: 84px;
   margin-bottom: 40px;
 }
-.container .about .about-img {
+body .container .about .about-img {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
-.container .about .about-text {
+body .container .about .about-text {
   text-align: center;
 }
-.container .about li {
+body .container .about li {
   font-size: 24px;
   font-weight: bold;
   font-style: italic;
 }
-.container .about .mb4 {
+body .container .about .mb4 {
   margin-bottom: 4px;
 }
-.container .about .mb8 {
+body .container .about .mb8 {
   margin-bottom: 8px;
 }
-.container .about .about-school {
+body .container .about .about-school {
   padding-bottom: 24px;
-  margin-bottom: 28px;
 }
-.container .about .about-ul {
+body .container .about .about-ul {
   width: 384px;
   margin: 0 auto;
   padding-bottom: 56px;
   border-top: 1px solid #000000;
 }
-.container .about .about-ul li {
+body .container .about .about-ul li {
   text-align: center;
   list-style: disc;
   margin-top: 27px;
 }
-
-.brand {
+body .brand {
   background: #000000;
 }
-.brand .container {
+body .brand .container {
   color: white;
   text-align: center;
 }
-.brand .container h2 {
+body .brand .container h2 {
   font-size: 64px;
   line-height: 84px;
   padding-top: 56px;
   margin-bottom: 12px;
 }
-.brand .container p {
+body .brand .container p {
   font-size: 24px;
   line-height: 42px;
   margin-bottom: 32px;
 }
-.brand .container h3 {
+body .brand .container h3 {
   font-size: 20px;
   line-height: 30px;
   padding-bottom: 68px;
 }
-.brand .container .mb40 {
+body .brand .container .mb40 {
   margin-bottom: 40px;
 }
-.brand .container .brand-img {
+body .brand .container .brand-img {
   padding-bottom: 160px;
   display: flex;
   justify-content: space-between;
 }
-
-.works {
+body .works {
   text-align: center;
 }
-.works h2 {
+body .works h2 {
   margin-top: 56px;
   margin-bottom: 16px;
   font-size: 64px;
   line-height: 84px;
+  font-style: italic;
 }
-.works h3 {
+body .works h3 {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 56px;
 }
-.works .works-item {
+body .works .works-item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 48px;
 }
-.works .works-item p {
+body .works .works-item p {
   font-size: 20px;
   line-height: 42px;
 }
-.works img {
+body .works img {
   margin-bottom: 16px;
 }
-.works .mb144 {
+body .works .mb144 {
   margin-bottom: 144px;
 }
-
-.footer {
+body .footer {
   background: #000;
   color: white;
   font-style: italic;
   text-align: center;
 }
-.footer h2 {
+body .footer h2 {
   font-size: 64px;
   line-height: 84px;
   padding-top: 64px;
   margin-top: 0;
 }
-.footer p {
+body .footer p {
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 16px;
 }
-.footer p a {
+body .footer p a {
   text-decoration: none;
   color: white;
 }
-.footer p a:hover {
+body .footer p a:hover {
   color: bisque;
 }
-.footer .pb64 {
+body .footer .pb64 {
   padding-bottom: 64px;
   margin: 0;
 }/*# sourceMappingURL=style.css.map */
