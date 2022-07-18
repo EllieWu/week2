@@ -208,6 +208,7 @@ body .footer h2 {
   line-height: 84px;
   padding-top: 64px;
   margin-top: 0;
+  margin-bottom: 16px;
 }
 body .footer p {
   font-size: 24px;
