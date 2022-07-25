@@ -56,182 +56,176 @@ img {
   vertical-align: middle;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-}
-body .banner img {
-  position: relative;
-}
-body .banner ul li {
+.banner {
+  background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-style: italic;
-  position: absolute;
-  top: 354px;
-  left: 790px;
   color: white;
 }
-body .banner ul li p {
-  font-size: 24px;
-  line-height: 42px;
-}
-body .banner ul li h1 {
+.banner h1 {
   font-size: 80px;
   line-height: 106px;
   margin-bottom: 32px;
-  font-weight: bold;
 }
-body .banner ul li span {
+.banner span {
+  font-size: 24px;
+  line-height: 42px;
+}
+.banner p {
   font-size: 24px;
   line-height: 36px;
 }
-body .banner .banner-social {
+
+.banner-social {
   margin-top: 40px;
+  display: flex;
 }
-body .banner .banner-social img {
+.banner-social img {
   margin-right: 16px;
 }
-body .banner .banner-social img:hover {
+.banner-social img:hover {
   transform: scale(1.2);
 }
-body .container {
+
+.container {
   width: 1200px;
   margin: 0 auto;
 }
-body .container .about h2 {
+
+.about {
+  text-align: center;
+}
+.about-title {
   margin-top: 56px;
   text-align: center;
   font-size: 64px;
   line-height: 84px;
   margin-bottom: 40px;
 }
-body .container .about .about-img {
-  display: flex;
-  justify-content: center;
+.about-img {
   margin-bottom: 20px;
 }
-body .container .about .about-text {
+.about-text {
   text-align: center;
 }
-body .container .about li {
+.about li {
   font-size: 24px;
   font-weight: bold;
   font-style: italic;
 }
-body .container .about .mb4 {
+.about .mb4 {
   margin-bottom: 4px;
 }
-body .container .about .mb8 {
+.about .mb8 {
   margin-bottom: 8px;
 }
-body .container .about .about-school {
+.about-school {
   padding-bottom: 24px;
+  margin-bottom: 28px;
 }
-body .container .about .about-ul {
+.about .about-ul {
   width: 384px;
-  margin: 0 auto;
-  padding-bottom: 56px;
+  margin: 0 auto 56px;
   border-top: 1px solid #000000;
-  list-style: none;
 }
-body .container .about .about-ul li {
-  margin-top: 28px;
+.about .about-ul li {
   text-align: center;
+  list-style: disc;
+  margin-top: 27px;
 }
-body .container .about .about-ul li::before {
-  content: "";
-  display: inline-block;
-  width: 17px;
-  height: 17px;
-  background-color: #891818;
-  border-radius: 50%;
-  margin-right: 16px;
-}
-body .brand {
+
+.brand {
   background: #000000;
 }
-body .brand .container {
+.brand .container {
   color: white;
   text-align: center;
 }
-body .brand .container h2 {
+.brand .container h2 {
   font-size: 64px;
   line-height: 84px;
   padding-top: 56px;
   margin-bottom: 12px;
 }
-body .brand .container p {
+.brand .container p {
   font-size: 24px;
   line-height: 42px;
   margin-bottom: 32px;
 }
-body .brand .container h3 {
+.brand .container h3 {
   font-size: 20px;
   line-height: 30px;
-  padding-bottom: 68px;
+  margin-bottom: 68px;
 }
-body .brand .container .mb40 {
+.brand .container .mb40 {
   margin-bottom: 40px;
 }
-body .brand .container .brand-img {
+.brand .container .brand-img {
   padding-bottom: 160px;
   display: flex;
   justify-content: space-between;
 }
-body .works {
+
+.works {
   text-align: center;
 }
-body .works h2 {
+.works h2 {
   margin-top: 56px;
   margin-bottom: 16px;
   font-size: 64px;
   line-height: 84px;
-  font-style: italic;
 }
-body .works h3 {
+.works h3 {
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 56px;
 }
-body .works .works-item {
+.works .works-item {
   display: flex;
   justify-content: space-between;
   margin-bottom: 48px;
 }
-body .works .works-item p {
+.works .works-item p {
   font-size: 20px;
   line-height: 42px;
 }
-body .works img {
+.works img {
   margin-bottom: 16px;
 }
-body .works .mb144 {
+.works .mb144 {
   margin-bottom: 144px;
 }
-body .footer {
+
+.footer {
   background: #000;
   color: white;
   font-style: italic;
   text-align: center;
 }
-body .footer h2 {
+.footer h2 {
   font-size: 64px;
   line-height: 84px;
   padding-top: 64px;
   margin-top: 0;
-  margin-bottom: 16px;
 }
-body .footer p {
+.footer ul li {
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 16px;
 }
-body .footer p a {
+.footer ul li a {
   text-decoration: none;
   color: white;
 }
-body .footer p a:hover {
+.footer ul li a:hover {
   color: bisque;
 }
-body .footer .pb64 {
+.footer .pb64 {
   padding-bottom: 64px;
   margin: 0;
 }/*# sourceMappingURL=style.css.map */

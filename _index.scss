@@ -1,0 +1,179 @@
+.banner{
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    color:white;
+        h1{
+            font-size: 80px;
+            line-height: 106px;
+            margin-bottom: 32px;
+            
+        }
+        span{
+            font-size: 24px;
+            line-height: 42px;
+        }
+        p{
+            
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+    
+    .banner-social{
+        margin-top: 40px;
+        display: flex;
+        img{
+            margin-right: 16px;
+        }
+        img:hover{
+            transform: scale(1.2);
+        }
+    }
+    
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+    .about{
+        text-align: center;
+        &-title{
+            margin-top: 56px;
+            text-align: center;
+            font-size: 64px;
+            line-height: 84px;
+            margin-bottom: 40px;
+        }
+        &-img{
+            margin-bottom: 20px;
+        }
+        &-text{
+            text-align: center;
+        }
+        li{
+            font-size: 24px;
+            font-weight: bold;
+            font-style: italic;
+        }
+        .mb4{
+            margin-bottom: 4px;
+        }
+        .mb8{
+            margin-bottom: 8px;
+        }
+        &-school{
+            padding-bottom: 24px;
+            margin-bottom: 28px;
+        }
+        .about-ul{
+            width: 384px;
+            margin: 0 auto 56px;
+            border-top: 1px solid #000000;
+            li{
+                text-align: center;
+                list-style: disc;
+                margin-top: 27px;
+            }
+            
+        }
+    }
+
+.brand{
+    background: #000000;
+    .container{
+        color:white;
+        text-align: center;
+        h2{
+            font-size: 64px;
+            line-height: 84px;
+            padding-top: 56px;
+            margin-bottom: 12px;
+        }
+        p{
+            font-size: 24px;
+            line-height: 42px;
+            margin-bottom: 32px;
+        }
+        h3{
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 68px;
+        }
+        .mb40{
+            margin-bottom: 40px;
+        }
+        .brand-img{
+            padding-bottom: 160px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+.works{
+    text-align: center;
+    h2{
+        margin-top: 56px;
+        margin-bottom: 16px;
+        font-size: 64px;
+        line-height: 84px;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 56px;
+    }
+    .works-item{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 48px;
+
+         p{
+            font-size: 20px;
+            line-height: 42px;
+         }
+    }
+    img{
+        margin-bottom: 16px;
+    }
+    .mb144{
+        margin-bottom: 144px;
+    }
+}
+.footer{
+    background: #000;
+    color:white;
+    font-style: italic;
+    text-align: center;
+    h2{
+        font-size: 64px;
+        line-height: 84px;
+        padding-top: 64px;   
+        margin-top: 0; 
+    }
+    ul {
+       li{
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 16px;
+        a{
+            text-decoration:none;
+            color:white;
+            
+        }  
+        a:hover{
+            color:bisque;
+        } 
+    } 
+    }
+    
+    .pb64{
+        padding-bottom: 64px;
+        margin: 0;
+    }
+}
